@@ -1,8 +1,9 @@
+# your code goes here
 n=int(input())
-a=1
-for a in range(1,6):
-	if(a<5):
-		print(n*a,end=" ")
+s=1
+for s in range(1,6):
+	if(s<5):
+		print(n*s,end=" ")
 	else:
-		print(n*a,end=" ")
-a+=1
+		print(n*s,end=" ")
+s+=1
